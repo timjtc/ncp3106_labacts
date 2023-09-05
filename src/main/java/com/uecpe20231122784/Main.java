@@ -5,7 +5,7 @@ package com.uecpe20231122784;
 public class Main {
     public static void main(String[] args) {
         try {
-            labact3.program9();
+            labact3.program1();
         } catch (Exception e) {
             e.printStackTrace();
         }

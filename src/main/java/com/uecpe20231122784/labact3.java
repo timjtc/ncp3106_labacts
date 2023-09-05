@@ -250,7 +250,4 @@ public class labact3 {
         keyboard.close();
     }
 
-    public static void program15() {
-        
-    }
 }
