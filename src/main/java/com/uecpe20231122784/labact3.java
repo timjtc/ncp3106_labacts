@@ -108,9 +108,11 @@ public class labact3 {
         int number;      // Loop control variable
         int maxValue;    // Maximum value to display
         System.out.println("I will display a table of numbers and their squares.");
-        Scanner keyboard = new Scanner(System.in);
-        System.out.print("How high should I go? ");
-        maxValue = keyboard.nextInt();
+        try (Scanner keyboard = new Scanner(System.in)) {
+            System.out.print("How high should I go? ");
+            maxValue = keyboard.nextInt();
+            keyboard.close();
+        }
         System.out.println("Number Number Squared");
         System.out.println("-----------------------");
         for (number = 1; number <= maxValue; number++)
