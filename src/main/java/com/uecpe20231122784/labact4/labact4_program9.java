@@ -7,6 +7,7 @@ public class labact4_program9 {
         // value1 and value2 as arguments. Assign the
         // return value to the total variable.
         total = sum(value1, value2);
+        
         // Display the contents of all these variables.
         System.out.println("The sum of " + value1 + " and " + value2 + " is " + total);
     }

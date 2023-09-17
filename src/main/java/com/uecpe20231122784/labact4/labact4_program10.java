@@ -1,7 +1,7 @@
 package com.uecpe20231122784.labact4;
 
 public class labact4_program10 {
-    public static void main(String[] args) {
+    public static void main() {
         String customerName;
         customerName = fullName("John", "Martin");
         System.out.println(customerName);

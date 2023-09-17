@@ -7,7 +7,7 @@ import com.uecpe20231122784.labact4.*;
 public class Main {
     public static void main(String[] args) {
         try {
-            labact4_program4.main();
+            // labact4_program1.main();
         } catch (Exception e) {
             e.printStackTrace();
         }
