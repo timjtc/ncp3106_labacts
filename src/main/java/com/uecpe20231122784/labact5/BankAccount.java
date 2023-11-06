@@ -3,7 +3,6 @@ package com.uecpe20231122784.labact5;
 public class BankAccount { 
 
      private double balance;      // Account balance 
-
     /** 
 
         This constructor sets the starting balance at 0.0. 
