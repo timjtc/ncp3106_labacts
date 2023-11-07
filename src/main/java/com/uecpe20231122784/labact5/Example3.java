@@ -27,7 +27,7 @@ public class Example3 {
 
         // Display the area. 
 
-        System.out.println("The box's area is " + box.getArea()); 
+        System.out.println("The box's area is " + box.getArea());
 
     } 
 
